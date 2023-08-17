@@ -18,10 +18,10 @@ let Filters= ({set})=>{
 
     return (
         <div>
-            <button onClick={()=>changefilter('all')}>All</button>
-            <button onClick={()=>changefilter('breakfast')}>Breakfast</button>
-            <button onClick={()=>changefilter('lunch')}>Lunch</button>
-            <button onClick={()=>changefilter('shakes')}>Shakes</button>
+            <button onClick={()=>changefilter('all')} id='filter-btn-0'>All</button>
+            <button onClick={()=>changefilter('breakfast')} id='filter-btn-1'>Breakfast</button>
+            <button onClick={()=>changefilter('lunch')} id='filter-btn-2'>Lunch</button>
+            <button onClick={()=>changefilter('shakes')} id='filter-btn-3'>Shakes</button>
         </div>
     )
 }
