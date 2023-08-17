@@ -6,7 +6,7 @@ import "../styles/App.css"
 let App = ()=>{
     let [items,setitems]=useState(data)
     return (
-        <div className='main'>
+        <div id='main'>
             <h1>Our Menu</h1>
             <Filters set={setitems} />
             <Menu data={items} />

@@ -6,7 +6,7 @@ return (
         {   data.map(element=>{
             let Image1 = require(`../images/image${element.id}.jpg`)
                 return (
-                    <div className='item'>
+                    <div className='item' data-test-id={'menu-item-'+element.category}>
                         <div className='left'>
                             <img src={Image1.default} className='images'></img>
                         </div>
