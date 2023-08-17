@@ -10,3 +10,22 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+.images{
+    width:100px;
+    height: 100px;
+}
+.itemcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    display: flex;
+    width: 700px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}

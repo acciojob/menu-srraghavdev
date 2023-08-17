@@ -1,2 +1,16 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
-
+import React,{useState} from 'react'
+import data from '../data'
+import Filters from './Filters'
+import Menu from './Menu'
+import "../styles/App.css"
+let App = ()=>{
+    let [items,setitems]=useState(data)
+    return (
+        <div className='container'>
+            <h1>Our Menu</h1>
+            <Filters set={setitems} />
+            <Menu data={items} />
+        </div>
+    )
+}
+export default App
